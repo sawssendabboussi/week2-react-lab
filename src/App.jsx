@@ -3,23 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'                   
 
-
-// function getTitle(title) {
-//   return title;
-// }
-
-// function App() {
-//   const title = "React";
-
-//   return (
-//     <div>
-//       <h1>hello {title}</h1>
-//       <label className="search" htmlFor="search">Search: </label>
-//       <input type="text" id="search" />
-//     </div>
-//   );
-// }
-
 const courseTitle='Advanced Web Development'
 
 function App (){
@@ -53,8 +36,7 @@ function App (){
   )
 }
 
-export default App;  /*this is a fixed part of the code*/ /*// export default App is always needed in this kind of React project because it exports your component so other files (like main.jsx or index.jsx) can import and render it; without it, your project cannot display the App component in the browser
- */
+export default App;
 
 // Reflection Questions:
 // 1)One thing I understand well in this lab: How to display variables and object properties in JSX using {}
